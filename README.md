@@ -2,9 +2,11 @@
 
 世界那么大，组件那么小。Small，做最轻巧的跨平台插件化框架。
 
+[![Join the chat at https://gitter.im/wequick/Small](https://badges.gitter.im/wequick/Small.svg)](https://gitter.im/wequick/Small?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![License Apache2.0](https://img.shields.io/hexpm/l/plug.svg)][license]
 
-支持平台：[Android](Android) API 15(4.0.3)+  `iOS 7.0+ 敬请期待`
+
+支持平台：[Android](Android) API 9(2.3)+  [iOS](iOS) 7.0+
 
 ![Small][icon]
 
@@ -19,7 +21,7 @@
 * **无缝链接**
   - 通过设定URI，宿主、本地化应用插件、本地化web插件、在线网页，以及任何自定义的插件之间能够相互调起与传递参数
 * **跨平台**
-  - 目前已支持[Android](Android)、iOS以及html5插件。并且三者之间可以通过同一套javascript接口进行通信。
+  - 目前已支持[Android](Android)、[iOS](iOS)以及html5插件。并且三者之间可以通过同一套Javascript接口进行通信。
 
 ## 文档
 开发细节、代码原理见 [Small Wiki][wiki]
@@ -31,26 +33,29 @@ Apache License 2.0
 
 [Android](Android) [Android](Android) [Android](Android)
 
-# 以下装逼请忽略
+[iOS](iOS) [iOS](iOS) [iOS](iOS)
 
-A small framework to split app into small parts.
+# English Version
+
+A small framework to split an app into small parts.
 
 ## Features
-* **Perfect built-in**
-  - All plugins are support to build in host application.
+* **Perfection built-in**
+  - All plugins are supported to build in host application.
 * **Highly transparent**
-  - The plugin codings (code, layout, etc.) are as same as a single application.
-  - Support plugin debuging just like a completion application.
+  - The plugin codings (code, layout, etc.) are the same as a single application.
+  - Support plugin debugging just like a completion application.
 * **Ultimate slicing**
-  - Splits out any shared codes and resources from plugins.
+  - Splits out any shared code and resources from plugins.
 * **Seamless connection**
-  - The host, native app bundle, native web bundle, online web page and any custom bundle can launch and pass parameters to each other with a simple uri.
+  - The host, native app bundle, native web bundle, online web page and any custom bundle can launch and pass parameters to each other with a simple URI.
 * **Cross platforms**
-  - Until now, we support android, iOS and html5 plugins. In addition, they can communicate with each other by an uniform javascript interface.
+  - Until now, we support Android, iOS and HTML5 plugins. In addition, they can communicate with each other through a uniform JavaScript interface.
 
 ## Getting Started
 
 * [Android](Android)
+* [iOS](iOS)
 
 ## Documentation
 The development details and the code principles are on [Small Wiki][wiki].
